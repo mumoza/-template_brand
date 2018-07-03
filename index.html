@@ -5,19 +5,96 @@
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        
     </head>
     <body>
         <header>
          <div class="container header-flex">
              <div class="header-left">
-                 <a href="#" class="logo"><img src="img/logo.png" alt="logo" class="img">BRAN<span>D</span></a>
-                 <form action="" method="post">
-                     <button>Browse</button><input type="text" class="header-input" placeholder="Search for Item...">
+                <a href="#" class="logo"><img src="img/logo.png" alt="logo" class="img">BRAN<span>D</span></a>
+                <div class="header-browse">
+                    <button class="header-a">Browse<i class="fas fa-caret-down"></i></button> 
+                    <div class="menu-browse">
+                        <div class="arrow-two"></div>
+                        <div class="list-browse">
+                            <h3>WOMEN</h3>
+                            <div class="strip"></div>
+                            <ul>
+                                <li><a href="">Dresses</a></li>
+                                <li><a href="">Tops</a></li>
+                                <li><a href="">Sweaters/Knits</a></li>
+                                <li><a href="">Jackets/Coats</a></li>
+                                <li><a href="">Blazers</a></li>
+                                <li><a href="">Denim</a></li>
+                                <li><a href="">Leggings/Pants</a></li>
+                                <li><a href="">Skirts/Shorts</a></li>
+                                <li><a href="">Accessories</a></li>
+                            </ul>
+                        </div>
+                        <div class="list-browse">
+                           <h3>MEN</h3>
+                            <div class="strip"></div>
+                            <ul>
+                                <li><a href="">Tees/Tank tops</a></li>
+                                <li><a href="">Shirts/Polos</a></li>
+                                <li><a href="">Sweaters</a></li>
+                                <li><a href="">Sweatshirts/Hoodies</a></li>
+                                <li><a href="">Blazers</a></li>
+                                <li><a href="">Denim</a></li>
+                                <li><a href="">Jackets/vests</a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+                <form action="" method="post">
+                    <input type="text"  class="header-input" placeholder="Search for Item...">
+                    <button class="header-search" type="" type="submit"><i class="fas fa-search"></i></button> 
                  </form>
             </div>
             <div class="header-right">
-                <div class="img-cart"></div>
-                <a class="my-acc" href="#">My Account</a>
+                <div class="cart-block">
+                    <div class="img-cart">
+                    <a href="">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    </div>
+                    <div class="backet">
+                        <div class="cart-menu">
+                            <div class="cart-menu-one">
+                                <img src="img/Layer-43.png" alt="">
+                                <div class="menu-one-center">
+                                <p>REBOX ZANE</p> 
+                                <img src="img/stars.png" alt="">
+                                <span>1 x $250</span>
+                                </div>
+                                <img src="img/cross.png" alt="" class="cross">
+                            </div>
+                            <div class="strip-cart"></div>
+                            <div class="cart-menu-two">
+                                <img src="img/Layer-44.png" alt="">
+                                <div class="menu-two-center">
+                                    <p>REBOX ZANE</p> 
+                                    <img src="img/stars.png" alt="">
+                                    <span>1 x $250</span>
+                                </div>
+                                <img src="img/cross.png" alt="" class="cross">
+                            </div>
+                            <div class="strip-cart"></div>
+                            <div class="cart-amount">
+                                <p>TOTAL</p>
+                                <p>$500.00</p>
+                            </div>
+                            <div class="cart-input">
+                                <input type="button" value="CHECKOUT" class="checkout">
+                                <input type="button" value="GO TO CART" class="checkout" >
+                            </div>
+                        
+                        
+                    </div>
+                </div>
+                </div>
+                
+                <a class="my-acc" href="#">My Account<i class="fas fa-caret-down"></i></a>
             </div>
          </div>
         </header>
@@ -64,10 +141,7 @@
                             <li><a href="">Sweaters/Knits</a></li>
                             <li><a href="">Jackets/Coats</a></li>
                             <li><a href="">Blazers</a></li>
-                            <li><a href="">Denim</a></li>
-                            <li><a href="">Leggings/Pants</a></li>
-                            <li><a href="">Skirts/Shorts</a></li>
-                            <li><a href="">Accessories</a></li>
+                            <img src="img/mega-menu.png" alt="" class="mega-list-img">
                         </ul>
                     </div>
                 </div>
@@ -89,18 +163,38 @@
         <div class="container offers">
             <div class="offers-left">
                 <div class="offers-big">
-                    <img src="img/men.png" alt="">
+                    <a href="" class="offers-a">
+                       <img src="img/men.png" alt="">
+                    <div class="offers-text-one">
+                        <p>HOT DEAL <br><span>FOR MEN</span></p>
+                    </div> 
+                    </a>
                 </div>
                 <div class="offers-small">
-                    <img src="img/56.png" alt="">
+                    <a href="" class="offers-a">
+                       <img src="img/56.png" alt="">
+                    <div class="offers-text-two">
+                        <p>LUXERIOUS & TRENDY <br><span>ACCECORIES</span></p>
+                    </div> 
+                    </a>
                 </div>
             </div>
             <div class="offers-right">
                 <div class="offers-small">
-                    <img src="img/famme.png" alt="">
+                    <a href="" class="offers-a">
+                       <img src="img/famme.png" alt="">
+                    <div class="offers-text-three">
+                        <p>-30% OFFER <br><span>WOMEN</span></p>
+                    </div> 
+                    </a>
                 </div>
                 <div class="offers-big">
-                    <img src="img/enfan.png" alt="">
+                    <a href="" class="offers-a">
+                      <img src="img/enfan.png" alt="">
+                    <div class="offers-text-four">
+                        <p>NEW ARRIVALS <br><span>FOR KIDS</span></p>
+                    </div>  
+                    </a>
                 </div>
             </div>
         </div>
@@ -117,7 +211,7 @@
                          </div>
                     </a>
                     <div class="box-center">
-                            <a href="" class="add-to-card">Add to card</a>
+                        <a href="https://www.google.ru" class="add-to-card"><i class="fas fa-shopping-cart"></i>Add to card</a>
                     </div>
                 </div>
                 <div class="product">
@@ -129,7 +223,7 @@
                          </div>
                     </a>
                     <div class="box-center">
-                            <a href="" class="add-to-card">Add to card</a>
+                            <a href="" class="add-to-card"><i class="fas fa-shopping-cart"></i>Add to card</a>
                     </div>
                 </div>
                 <div class="product">
@@ -141,7 +235,7 @@
                         </div>
                     </a>
                     <div class="box-center">
-                            <a href="" class="add-to-card">Add to card</a>
+                            <a href="" class="add-to-card"><i class="fas fa-shopping-cart"></i>Add to card</a>
                     </div>
                 </div>
                 <div class="product">
@@ -153,7 +247,7 @@
                         </div>
                     </a>
                     <div class="box-center">
-                            <a href="" class="add-to-card">Add to card</a>
+                            <a href="" class="add-to-card"><i class="fas fa-shopping-cart"></i>Add to card</a>
                     </div>
                 </div>
                 <div class="product">
@@ -165,7 +259,7 @@
                         </div>
                     </a>
                     <div class="box-center">
-                            <a href="" class="add-to-card">Add to card</a>
+                            <a href="" class="add-to-card"><i class="fas fa-shopping-cart"></i>Add to card</a>
                     </div>
                 </div>
                 <div class="product">
@@ -177,7 +271,7 @@
                         </div>
                     </a>
                     <div class="box-center">
-                            <a href="" class="add-to-card">Add to card</a>
+                            <a href="" class="add-to-card"><i class="fas fa-shopping-cart"></i>Add to card</a>
                     </div>
                 </div>
                 <div class="product">
@@ -189,7 +283,7 @@
                         </div>
                     </a>
                     <div class="box-center">
-                            <a href="" class="add-to-card">Add to card</a>
+                            <a href="" class="add-to-card"><i class="fas fa-shopping-cart"></i>Add to card</a>
                     </div>
                 </div>
                 <div class="product">
@@ -200,19 +294,82 @@
                             <span>$52.00</span>
                         </div>
                         <div class="box-center">
-                                <a href="" class="add-to-card">Add to card</a>
+                                <a href="" class="add-to-card"><i class="fas fa-shopping-cart"></i>Add to card</a>
                         </div>
                     </a>
                 </div>
             </div>
+            <div class="browse-all-product">
+                <a href="" class="link-browse-product">Browse All Product<i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
         </section>
+        <div class="container poster-background">
+                <div class="poster">
+                <div class="poster-caption-left">
+                    <h2>30% <span>OFFER</span></h2>
+                    <h3>FOR WOMEN</h3>
+                </div>
+                <div class="poster-caption-right">
+                    <div class="caption-one">
+                        <div>
+                            <img src="img/Forma3.png" alt="">
+                        </div>
+                        <div>
+                            <h3>Free Delivery</h3>
+                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                        </div>
+                    </div>
+                    <div class="caption-two">
+                        <div>
+                            <img src="img/Forma2.png" alt="">
+                        </div>
+                        <div>
+                            <h3>Sales & discounts</h3>
+                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                        </div>
+                    </div>
+                    <div class="caption-three">
+                        <div>
+                            <img src="img/Forma1.png" alt="">
+                        </div>
+                        <div>
+                            <h3>Quality assurance</h3>
+                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="subscribe">
+            <div class="subscribe-background">
+                
+            </div>
+            <div class="container">
+                <div class="subscribe-left">
+
+                </div>
+
+
+                <div class="subscribe-right">
+                    <h3>SUBSCRIBE</h3>
+                    <p>FOR OUR NEWLETTER AND PROMOTION</p>
+                    <form action="" id="email">
+                        <input type="email" id="email" placeholder="Enter Your Email" class="input-email"><input type="submit" id="email" value="Subscribe" class="input-submit">
+                    </form>
+                    
+                </div>
+
+
+                </div>
+        </div>
         <footer>
             <div class="container">
                 <div class="footer-top">
                     <div class="footer-text">
                         <a href="#" class="logo"><img src="img/logo.png" alt="logo" class="img">BRAN<span>D</span></a>
-                        <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
-                        Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                        <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                        <p>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
                     </div>
                     <nav class="nav-footer-flex">
                         <div class="footer-nav">
@@ -226,29 +383,30 @@
                             </ul>
                         </div>
                         <div class="footer-nav">
-                            <h3>COMPANY</h3>
+                            <h3>INFORMATION</h3>
                             <ul>
-                                <li><a href="">Home</li>
-                                <li><a href="">Shop</a></li>
-                                <li><a href="">Abo.. /ut</a></li>
-                                <li><a href="">How It Works</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><a href="">Tearms & Condition</li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">How to Buy</a></li>
+                                <li><a href="">How to Sell </a></li>
+                                <li><a href="">Promotion</a></li>
                             </ul>
                         </div>
                         <div class="footer-nav">
-                            <h3>COMPANY</h3>
+                            <h3>SHOP CATEGORY</h3>
                             <ul>
-                                <li><a href="">Home</li>
-                                <li><a href="">Shop</a></li>
-                                <li><a href="">About</a></li>
-                                <li><a href="">How It Works</a></li>
-                                <li><a href="">Contact</a></li>
+                                <li><a href="">Men</li>
+                                <li><a href="">Women</a></li>
+                                <li><a href="">Child</a></li>
+                                <li><a href="">Apparel</a></li>
+                                <li><a href="">Braws All</a></li>
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
-            <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom">
                 <div class="container flex-bottom">
                     <p>@2018 Brand All Rights Reserved.</p>
                     <div class="icons">
@@ -270,6 +428,10 @@
                     </div>
                 </div>
             </div>
+            </div>
+            
         </footer>
+
+       
     </body>
 </html>
