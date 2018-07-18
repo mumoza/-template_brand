@@ -51,7 +51,7 @@ header{
     top: 33px;
     background-color: white;
     z-index: 1;
-    padding: 15px;
+    padding-left: 15px;
     border: 1px solid #d3d1d1;
     border-radius: 5px;
 }
@@ -123,6 +123,10 @@ header{
     outline: none;
     cursor: pointer;
 }
+.header-a:hover{
+    box-shadow: 0 0 4px 0.5px;
+    font-size: 15px;
+}
 .fa-caret-down{
     padding-left: 6px;
 }
@@ -140,6 +144,7 @@ header{
 }
 .header-search:hover{
     background: #f16d7f;
+    box-shadow: 0 0 3px 0.6px;
 }
 .header-input{
     border: 1px solid #e6e6e6;
@@ -220,6 +225,9 @@ header{
 }
 .menu-product{
     cursor: pointer;
+}
+.menu-product:hover{
+    box-shadow: 0 0 4px 0.4px;
 }
 .menu-stars{
     cursor: pointer;
@@ -511,7 +519,6 @@ header{
     text-align: center;
     color: #9f9f9f;
     font-size: 14px;
-    line-height: 47px;
 }
 .box-product{
     display: flex;
@@ -754,6 +761,7 @@ header{
     font-size: 18px;
     font-weight: 700;
     line-height: 19px;
+    padding-left: 39px;
 }
 .footer-bottom{
     background-color: #e6e6e6;
